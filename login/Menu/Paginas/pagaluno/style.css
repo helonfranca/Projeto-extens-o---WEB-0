@@ -179,7 +179,7 @@ div>.dentro_logo{
   .form1 {
     
     margin-top: 2px;
-    height: 18vh;
+    height: 8vh;
     width: 40vw;
     padding-top: 10px;
     padding-left: 80px;
@@ -200,7 +200,7 @@ div>.dentro_logo{
   .form2 {
     
     margin-top: 2px;
-    height: 52vh;
+    height: 20vh;
     width: 40vw;
     padding-top: 10px;
     padding-left: 80px;
@@ -241,6 +241,59 @@ div>.dentro_logo{
   .form3 div + div {
     margin-top: 1em;
     padding: 4px;
+  }
+  
+  .form4 {
+    
+    margin-top: 2px;
+    height: 16vh;
+    width: 40vw;
+    padding-top: 10px;
+    padding-left: 80px;
+    background-color: #9fc7aa;
+   border-radius: 3%;
+   
+    font-size: 20px;
+    box-sizing: border-box;
+    position: relative;
+    left: 140px;
+    top: 10px;
+  }
+  
+  .form4 div + div {
+    margin-top: 1em;
+    padding: 4px;
+  }
+  
+  .form5 {
+    
+    margin-top: 2px;
+    height: 40vh;
+    width: 40vw;
+    padding-top: 10px;
+    padding-left: 80px;
+    background-color: #9fc7aa;
+   border-radius: 3%;
+   
+    font-size: 20px;
+    box-sizing: border-box;
+    position: relative;
+    left: 140px;
+    top: 10px;
+  }
+  
+  .form5 div + div {
+    margin-top: 1em;
+    padding: 4px;
+  }
+  
+  .format2{
+	display: inline;
+    width: 140px;
+    text-align: left;
+    padding: 0px;
+    border: 0px;
+    font-size: 20px; 
   }
   
   label {
@@ -451,4 +504,24 @@ div>.dentro_logo{
     margin: 0;
     -moz-appearance: textfield;
   
+}
+
+  .anexar {
+    border-radius: 10px;
+    left: 0px;
+    top: 0px;
+    width: 60%;
+    height: 30%;
+    padding: 0px;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    position: relative;
+    background: aliceblue;
+    color: black;
+    font-size: 15px;
+    font-family: BebasNeue;
+    cursor: pointer;
+    border: none;
+    outline: none;
 }

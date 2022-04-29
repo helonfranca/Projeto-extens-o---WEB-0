@@ -145,11 +145,10 @@ div>.logoprincipal{
  }
 
 a:link {
-    color: white;
     text-decoration: none;
   }
 
   a:visited {
-    color: black;
+    color: white;
     text-decoration: none;
   }
