@@ -159,6 +159,73 @@ li{
   font-size: 20px;
 }
 
+.anexardoc{   /* Do texto "Anexar Doc" acima do botão em si*/
+  font-size: 25px;
+  padding-top: 10px;
+  white-space: nowrap; /* FORÇA NÃO QUEBRAR LINHA "VALIDAR (quebra) CERTIFICADO por exemplo"*/
+  width: 120%; /*120% para esticar quando se usa essa div no botão anexar, aí o botão aparecerá todo, e não cortado a direita*/
+}
+
+
+
+#anexarid{        /* "Desenhando" o anexar doc*/
+
+  border-radius: 10px;   
+   left: 0px;
+  top: 0px;
+
+  width: 34%; /*Tamanho da largura do fundo/background*/
+  height: 30%; /*Tamanho da altura do fundo/background*/
+  padding: 0px;
+ 
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  position: relative;
+  
+  
+  background: aliceblue;
+  color: black; /*Cor da fonte*/
+
+  
+  font-size: 15px;   
+  font-family: BebasNeue;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  
+}
+
+.anexar{        /* "Desenhando" o anexar doc*/
+
+  border-radius: 10px;   
+   left: 0px;
+  top: 0px;
+
+  width: 60%; /*Tamanho da largura do fundo/background*/
+  height: 30%; /*Tamanho da altura do fundo/background*/
+  padding: 0px;
+ 
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  position: relative;
+  
+  
+  background: aliceblue;
+  color: black; /*Cor da fonte*/
+
+  
+  font-size: 15px;   
+  font-family: BebasNeue;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  
+}
+
+
+
 
 /*Configurações de estilo na tela esquerda ----------------------------------*/
 
