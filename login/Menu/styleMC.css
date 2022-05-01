@@ -11,9 +11,8 @@ body{
 
 .header1 { 
   display:grid;
-  grid-area: header1;
-  grid-template-areas: 'tituloheader icone'; 
-  
+  grid-area: header1; /*Onde ele fica na separação por "grid"*/
+  padding-left: 20px;
   width: 30vw;
 }
 
@@ -27,7 +26,7 @@ body{
 .item4_menu { grid-area: menu4; }
 
 
-.icone { grid-area:icone; } /* Avatar */
+
 .footer{grid-area: footer;}
 .logoprincipal{grid-area: logoprincipal;}
 .telaesq{grid-area: telaesq;} /* Projetos */
@@ -61,6 +60,7 @@ body{
 .container > div:nth-child(2){ /* (2) é o segundo item (telaesquerda: "proj 1, 2, 3") da tabela que não está vazio, que está definido aqui no corpo*/
   grid-row:2/5; /*Fazendo ele ocupar 2 espaçõs. Da linha 2 à 5*/
   align-self: center;
+  
   
 
 }
@@ -123,10 +123,7 @@ div>.telaesq{
    
 }   
 
-div>.icone{
-    background: white;
-    
-}
+
 
 
 /* LOGO PRINCIPAL */
@@ -134,6 +131,7 @@ div>.logoprincipal{
   padding: 2px;
   background: white;
   margin-top: 15px;
+  
   
    }
  
@@ -149,7 +147,7 @@ a:link {
     color: white;
   }
 
-  a:visited {
+  a:visited { /*"a" é o elemento âncora do html. Aqui ele dita o estilo do que acontece com o link, quando já visitado. a Âncora leva o usuário a uma parte específica da página. Já o link leva o usuário para outra página. Utilizamos muitas vezes links com uma âncora...*/
     color: white;
     text-decoration: none;
   }
