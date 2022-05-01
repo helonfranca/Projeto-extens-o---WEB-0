@@ -55,7 +55,9 @@
                                   
                     <div><label class="format2">Anexar relatório</label>
 
-                    <a href="path" download="arquivo.exemplo">
+                        <div class="anexardoc">  <!--Nessa linha nós escolhemos o label da div, da divisão, qual o espaço dela etc. Sua descrilçao está no arquivo css (.anexardoc {}) -->
+                            <input type="file"   name="arquivo" class= "anexar" > <!--Nessa linha está acontecendo esse link da label, mas pela classe descrita ( .anexar{} )-->
+                        </div>
                     <button class="butao2" type="button">Escolher arquivo</button>
                     </a>
                     </div>
