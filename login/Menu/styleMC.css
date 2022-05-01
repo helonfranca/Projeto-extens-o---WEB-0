@@ -58,7 +58,7 @@ body{
   
 }
 
-.container > div:nth-child(2){ /* (2) é o terceiro item da tabela que não está vazio*/
+.container > div:nth-child(2){ /* (2) é o segundo item (telaesquerda: "proj 1, 2, 3") da tabela que não está vazio, que está definido aqui no corpo*/
   grid-row:2/5; /*Fazendo ele ocupar 2 espaçõs. Da linha 2 à 5*/
   align-self: center;
   
